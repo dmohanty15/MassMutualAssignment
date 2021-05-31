@@ -1,0 +1,5 @@
+pages\ExercisePage.class
+Runner\TestRunner.class
+stepdefinition\StepDef.class
+pages\BaseTestPage.class
+commonUtils\FunctionUtils.class

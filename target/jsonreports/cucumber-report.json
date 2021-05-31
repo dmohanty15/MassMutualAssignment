@@ -1,0 +1,124 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-31T15:52:24.003Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5155000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDef.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Verification of count and values",
+        "description": "",
+        "id": "verification-of-count-and-values-on-screen;verification-of-count-and-values",
+        "after": [
+          {
+            "result": {
+              "duration": 151000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDef.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Navigating to the exercises page",
+            "match": {
+              "location": "stepdefinition.StepDef.navigating_to_the_exercises_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify the right count of values appear on the screen",
+            "match": {
+              "location": "stepdefinition.StepDef.verify_the_right_count_of_values_appear_on_the_screen()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verify the values on the screen are greater than 0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 49
+                }
+              ],
+              "location": "stepdefinition.StepDef.verify_the_values_on_the_screen_are_greater_than(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 93000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify the total balance is correct based on the values listed on the screen",
+            "match": {
+              "location": "stepdefinition.StepDef.verify_the_total_balance_is_correct_based_on_the_values_listed_on_the_screen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify the values are formatted as currencies",
+            "match": {
+              "location": "stepdefinition.StepDef.verify_the_values_are_formatted_as_currencies()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "junit.framework.AssertionFailedError: Total balance should match with sumvalue expected:\u003c1000000.0\u003e but was:\u003c997000.0\u003e\r\n\tat junit.framework.Assert.fail(Assert.java:57)\r\n\tat junit.framework.Assert.failNotEquals(Assert.java:329)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:78)\r\n\tat stepdefinition.StepDef.verify_the_total_balance_matches_the_sum_of_the_values(StepDef.java:175)\r\n\tat ✽.verify the total balance matches the sum of the values(file:///C:/Users/dinesh.mohanty/Desktop/MassMutual_Exercise/MASSMUTUALEXERCISE/features/massmutual.feature:11)\r\n",
+              "duration": 3000000,
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "verify the total balance matches the sum of the values",
+            "match": {
+              "location": "stepdefinition.StepDef.verify_the_total_balance_matches_the_sum_of_the_values()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verification of count and values on screen",
+    "description": "",
+    "id": "verification-of-count-and-values-on-screen",
+    "keyword": "Feature",
+    "uri": "file:features/massmutual.feature",
+    "tags": []
+  }
+]

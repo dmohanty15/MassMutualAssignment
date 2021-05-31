@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: Runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 8.271 s <<< FAILURE! - in Runner.TestRunner
+Verification of count and values on screen.Verification of count and values  Time elapsed: 6.398 s  <<< FAILURE!
+junit.framework.AssertionFailedError: Total balance should match with sumvalue expected:<1000000.0> but was:<997000.0>
+
